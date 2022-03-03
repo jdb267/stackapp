@@ -169,7 +169,7 @@
   <body>
     <div class="sidebar">
       <div class="top">
-        <div>Logo</div>
+        <div>Stack App</div>
         <div><button>Request Content</button></div>
         <div class="navbar">
           <ul>
@@ -213,16 +213,17 @@
               "></input><label>Description</label>
               <input class="desc" placeholder="This is where we tell the writers exactly what we need from them. The more detail provided in this section, the better. There really is no limit to what you can share. Feel free to spill your deepest, darkest secrets; however, I would recommend limiting it to the information relevant to your requested piece of content.
               "></input>
-              <button>Request Edit</button><button onclick="location.href='other.html'">Review/Edit in App</button></div>
               
-              <div><hr></div>
-              <div class="cqcheck">
-                  <h2>Content Quality Checks</h2>
-                  <h3>This content passed oru plagiarism check</h3>
-                  <h3>This content passed our readability check</h3>
-              </div>
+              <div>
+                <label for="doc">Choose a word document:</label>
+
+                <input type="file"
+                       id="avatar" name="avatar"
+                       accept=".doc, .docx">
+              </div>    
+              <button onclick="location.href='other.html'">Review/Edit in App</button>
+            </div>  
           </div>
-        <div class="rightbar"><div class="rate"><div class="rate-title">Rate this article</div><div>Please rate the delivered content</div><div class="stars">*****</div></div><div class="messaging">Messaging</div><div>The Convo is Closed</div></div>
       </div>
     </div>
   </body>
